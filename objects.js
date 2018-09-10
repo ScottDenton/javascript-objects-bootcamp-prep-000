@@ -3,8 +3,8 @@ var playlist = {
   
 }
 
-function updatePlaylist(playlist, artist, song) {
-  playlist.artist = song;
+function updatePlaylist(obj, artist, song) {
+  obj[artist] = song;
   
   return playlist;
 }
